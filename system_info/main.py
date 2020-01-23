@@ -65,12 +65,12 @@ def main():
     
         #return perf.perf_counter() - t0
         
-    if __name__ == '__main__':
-        t_default = 6.388216104
-        start_time = timeit.default_timer()
-        bench_pidigits(ndigits=100, loops=1000)
-        elapsed_time = timeit.default_timer() - start_time
-        print('Relative Elapsed:', elapsed_time/t_default)
+    
+    t_default = 6.388216104
+    start_time = timeit.default_timer()
+    bench_pidigits(ndigits=100, loops=1000)
+    elapsed_time = timeit.default_timer() - start_time
+    print('Relative Elapsed:', elapsed_time/t_default)
     
         
 if __name__ == '__main__':
