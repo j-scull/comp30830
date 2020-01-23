@@ -13,6 +13,7 @@ import itertools
 
 def test():
     print('Test')
+    return
 
 def main():
     hostname = socket.gethostname() #gets the the of the current machine
@@ -73,7 +74,7 @@ def main():
     bench_pidigits(ndigits=100, loops=1000)
     elapsed_time = timeit.default_timer() - start_time
     print('Relative Elapsed:', elapsed_time/t_default)
-    
+    return
         
 if __name__ == '__main__':
     main()      
