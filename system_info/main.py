@@ -12,7 +12,7 @@ import timeit
 import itertools
 
 
-def sys_info():
+def main():
     hostname = socket.gethostname() #gets the the of the current machine
     print('Name:', hostname) 
     print('System:', platform.system(), os.name)
@@ -74,6 +74,6 @@ def sys_info():
     
         
 if __name__ == '__main__':
-    sys_info()      
+    main()      
             
         
