@@ -10,6 +10,7 @@ setup(name="system_info",
       author="Joe Scullion",
       author_email="joe-scullion@hotmail.com",
       license="GPL3",
+      install_requires = ['os', 'psutils']
       packages=['system_info'],
       entry_points={
         'console_scripts':['comp30830_systeminfo=system_info.main:main']

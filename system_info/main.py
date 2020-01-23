@@ -11,6 +11,8 @@ from psutil import virtual_memory
 import timeit
 import itertools
 
+def test():
+    print('Test')
 
 def main():
     hostname = socket.gethostname() #gets the the of the current machine
