@@ -1,0 +1,9 @@
+setup.py
+system_info/__init__.py
+system_info/main.py
+system_info/test.py
+system_info.egg-info/PKG-INFO
+system_info.egg-info/SOURCES.txt
+system_info.egg-info/dependency_links.txt
+system_info.egg-info/entry_points.txt
+system_info.egg-info/top_level.txt
